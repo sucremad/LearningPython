@@ -42,6 +42,39 @@ age = "22"
 my_age = 21 ### integer
 gpa = 3.62  ### float
 
+
+
+### Arithmetic Operations
+
+
+addition = 10 + 3 
+
+"""
+addition :
+x = 10
+x = x + 3 ----> now x = 13
+
+same as:
+
+x += 3   (shorter form)
+
+it can be used with other operations: 
+
+x += 3
+x -= 3
+x /= 3
+
+
+"""
+subtraction = 10 -3
+multiplication = 10 * 3
+division1 = 10 / 3      #### result as decimal  - 3.3333
+division2 = 10 // 3     #### result as integer  - 3
+modulus = 10 % 3        #### returns remain of the division - 1
+exponent = 10 ** 3      #### power
+
+
+
 ## boolean
 ### Only True or False
 
@@ -53,6 +86,7 @@ print("My name is ", name)
 print("My last name is " + last_name)
 print(my_age)
 print(gpa)
+
 
 
 
@@ -166,7 +200,11 @@ print(any_string.strip()) ## removes any whitespace from the beginning or the en
 print(sentence.title())  ## Converts the first character of each word to upper case
 
 
+print("nom" * 3)  ## nomnomnom
 
+python = 'Py' 'thon'  ## python = 'Python'
+
+print(python)  ## 'Python'
 
 
 ## nth character
@@ -223,9 +261,4 @@ print(message3) ## "Willie's last name is Wonka"
 pi_value = 3.14159
 
 print(f'The value of pi is {pi_value:.3f}.') ## prints 'The value of pi is 3.142.'
-
-
-
-
-
 
