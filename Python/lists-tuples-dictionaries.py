@@ -218,3 +218,36 @@ print(someone.get("lectures"))  ### ['math', 'OOP', 'Physics', 'Algorithms']
 someone["birthMonth"] = "December"
 
 print(someone["birthMonth"]) ### December
+
+
+
+### create via dict() function
+
+empty_dict = dict()
+empty_dict['color'] = 'red'
+empty_dict['size'] = 'medium'
+
+"""
+or 
+
+simple_dict = dict(color=red, size="medium")
+
+
+"""
+
+print(empty_dict)   #### {'color': 'red', 'size': 'medium'}
+
+### Delete keys
+
+# empty_dict.pop('name')
+# empty_dict.pop('age')
+
+del empty_dict['size']
+
+
+print(empty_dict)  #### {'color': 'red'}
+
+### print all keys
+
+print(empty_dict.keys())  #### dict_keys(['color'])
+
