@@ -74,6 +74,27 @@ modulus = 10 % 3        #### returns remain of the division - 1
 exponent = 10 ** 3      #### power
 
 
+"""
+ASSIGMENT OPERATORS
+
+=	x = 5	        x = 5	
++=	x += 3	        x = x + 3	
+-=	x -= 3	        x = x - 3	
+*=	x *= 3	        x = x * 3	
+/=	x /= 3	        x = x / 3	
+%=	x %= 3	        x = x % 3	
+//=	x //= 3	        x = x // 3	
+**=	x **= 3	        x = x ** 3	
+&=	x &= 3	        x = x & 3	
+|=	x |= 3	        x = x | 3	
+^=	x ^= 3	        x = x ^ 3	
+>>=	x >>= 3	        x = x >> 3	
+<<=	x <<= 3	        x = x << 3
+
+
+"""
+
+
 
 ## boolean
 ### Only True or False
